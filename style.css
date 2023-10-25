@@ -22,10 +22,10 @@ body {
     height: 100px;
     font-size: 80px;
     text-align: center;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
     transition: transform 0.2s;
     cursor: pointer;
 }
@@ -33,3 +33,24 @@ body {
 .square:hover {
     transform: scale(1.1);
 }
+
+/* Adicione estilos para o vencedor */
+.winner-X {
+    background-color: #aaffaa; /* Verde */
+    color: #008000; /* Verde mais escuro para o texto */
+    font-weight: bold;
+  }
+  
+  .winner-O {
+    background-color: #aaffaa; /* Verde */
+    color: #008000; /* Verde mais escuro para o texto */
+    font-weight: bold;
+  }
+  
+  /* Adicione estilos para o empate */
+  .draw {
+    background-color: #ffffaa; /* Amarelo */
+    color: #888800; /* Amarelo mais escuro para o texto */
+    font-weight: bold;
+  }
+  
