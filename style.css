@@ -54,3 +54,25 @@ body {
     font-weight: bold;
   }
   
+  .button-container {
+    text-align: center; /* Centralizar horizontalmente o botão */
+    margin-top: 20px; /* Espaçamento superior para separar o botão da tabela */
+}
+
+/* Estilos do botão de reiniciar */
+.restart-button {
+    background-color: #001aff; /* Cor de fundo vermelha */
+    color: #ffffff; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s; /* Efeito de transição */
+}
+
+.restart-button:hover {
+    background-color: #15ff00; /* Cor de fundo vermelha mais escura ao passar o mouse */
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
