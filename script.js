@@ -64,6 +64,7 @@ function restartGame() {
   const cells = document.querySelectorAll('.square');
   cells.forEach(cell => {
       cell.innerHTML = '';
+      location.reload();
  
   });
 
