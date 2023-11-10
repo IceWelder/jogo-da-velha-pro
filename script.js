@@ -64,7 +64,8 @@ function restartGame() {
   const cells = document.querySelectorAll('.square');
   cells.forEach(cell => {
       cell.innerHTML = '';
-      cell.classList.remove('winner-X', 'winner-O', 'draw');
+      location.reload();
+      // cell.classList.remove('winner-X', 'winner-O', 'draw');
   });
 
   // Reinicia o jogador para 'X'
